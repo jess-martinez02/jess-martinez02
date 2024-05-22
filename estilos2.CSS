@@ -1,0 +1,95 @@
+﻿/* styles.css */
+
+/* Estilos generales */
+body {
+    font-family: Arial; color: WHITE ; sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+
+  
+    background-color: #f7414173;
+
+}
+.contenedor{
+
+    display: flex;  
+
+}
+.imagen {
+
+    width: 300px;
+    margin-right: 30px ;
+
+    margin-left: 400px ;
+    }
+    
+   
+    .text {
+        align-self: center;
+    }
+
+/* Encabezado */
+header {
+    background-color: #0000007a;
+    text-align: center;
+    padding: 40px;
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #5a4304a1;
+    padding: 20px;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+ 
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/* Secciones */
+section {
+    padding: 20px;
+}
+
+/* Pie de página */
+footer {
+    color: beige;
+    background-color: #fcff359a;
+    text-align: center;
+    padding: 10px;
+
+}
+img{
+    width: 300px;
+    margin-right: 350px ;
+
+    margin-left: 300px ;
+}
+body {
+ 
+    background-image: url(fc.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+
+   
+
+}
+.arboles {
+    color: beige;
+    background-color: #ffde218c;
+    text-align: center;
+    padding: 10px;
+    margin-bottom:  20px ;
+}
